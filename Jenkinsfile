@@ -42,7 +42,7 @@ pipeline {
                     publishHTML([alwaysLinkToLastBuild: true,
                                  keepAll: true,
                                  reportDir: 'build/test-report/html', 
-                                 includes: 'build/test-report/html/**',
+                                 includes: 'build/test-report/html/**/*',
                                  reportFiles: 'index.html', 
                                  reportName: 'JUnitReport'
                                ])
