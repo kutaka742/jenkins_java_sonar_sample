@@ -73,7 +73,7 @@
         <property name="sonar.sources" value="src" />
         <property name="sonar.java.binaries" value="build" />
 
-        <sonar:sonar workDir="${base.dir}" key="org.apache.nutch:trunk" xmlns:sonar="antlib:org.sonar.ant"/>
+        <sonar:sonar key="org.apache.nutch:trunk" xmlns:sonar="antlib:org.sonar.ant"/>
     </target>
 
 
