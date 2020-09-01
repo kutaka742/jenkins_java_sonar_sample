@@ -70,7 +70,7 @@
 
     <target name="sonar">
         <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
-            <classpath path=""${env.ANT_HOME}/lib/sonarqube-ant-task-*.jar" />
+            <classpath path="${env.ANT_HOME}/lib/sonarqube-ant-task-*.jar" />
         </taskdef>
         <sonar:sonar />
     </target>
