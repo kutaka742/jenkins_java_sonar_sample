@@ -9,7 +9,7 @@
         <fileset dir="${env.ANT_HOME}/lib" includes="*.jar" />
     </path>
 
-    <target name="build" description="clean build" depends="clean, test,makejar" />
+    <target name="build" description="clean build" depends="clean, test ,makejar ,sonar" />
 
     <target name="clean">
         <delete dir="build"/>
@@ -60,5 +60,20 @@
     <target name="makejar">
         <jar basedir="build/main" destfile="build/sample-ant.jar" />
     </target>
+ 
+    <property name="sonar.host.url" value="http://10.10.120.11/sonarqube" />
+    <property name="sonar.projectKey" value="org.sonarqube:sonarqube-scanner-ant" />
+    <property name="sonar.projectName" value="sample-ant" />
+    <property name="sonar.projectVersion" value="1.0" />
+    <property name="sonar.sources" value="src" />
+    <property name="sonar.java.binaries" value="build" />
+
+    <target name="sonar">
+        <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+            <classpath path=""${env.ANT_HOME}/lib/sonarqube-ant-task-*.jar" />
+        </taskdef>
+        <sonar:sonar />
+    </target>
+
 
 </project>
