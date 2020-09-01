@@ -44,7 +44,7 @@ pipeline {
                                  includes: 'build/test-report/html/**', 
                                  keepAll: false, reportDir: 'build/test-report/html', 
                                  reportFiles: 'index.html', 
-                                 reportName: 'JUnit Report', reportTitles: 'JUnit Repor'
+                                 reportName: 'JUnitReport', reportTitles: 'JUnitRepor'
                                ])
                 }
             }
