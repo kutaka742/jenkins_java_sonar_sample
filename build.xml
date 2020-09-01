@@ -67,6 +67,7 @@
         </taskdef>
         
         <property name="sonar.host.url" value="http://10.10.120.11/sonarqube" />
+        <property name="sonar.password" value="5a1f10989c41cc0f1ccd4315fb6739fb753494b3" />
         <property name="sonar.projectKey" value="org.sonarqube:sonarqube-scanner-ant" />
         <property name="sonar.projectName" value="sample-ant" />
         <property name="sonar.projectVersion" value="1.0" />
