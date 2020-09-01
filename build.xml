@@ -9,10 +9,12 @@
         </condition>
     </fail>
 
+    <property environment="env"/>
+    
     <path id="test.classpath">
         <pathelement path="build/test"/>
         <pathelement path="build/main"/>
-        <fileset dir="${ant.home}/lib" includes="*.jar" />
+        <fileset dir="$env.ANT_HOME}/lib" includes="*.jar" />
     </path>
 
     <target name="build" description="clean build" depends="clean, test,makejar" />
