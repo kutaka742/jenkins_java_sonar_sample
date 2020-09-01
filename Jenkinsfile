@@ -39,6 +39,7 @@ pipeline {
             steps{
                 script{
                     junit 'build/test-report/*.xml'
+                    sh "sonar-scanner" 
                 }
             }
         }

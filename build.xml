@@ -9,7 +9,7 @@
         <fileset dir="${env.ANT_HOME}/lib" includes="*.jar" />
     </path>
 
-    <target name="build" description="clean build" depends="clean, test ,makejar ,sonar" />
+    <target name="build" description="clean build" depends="clean, test ,makejar" />
 
     <target name="clean">
         <delete dir="build"/>
