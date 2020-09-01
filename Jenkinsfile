@@ -35,7 +35,7 @@ pipeline {
         }
 
         //テスト結果
-        stage('Build'){
+        stage('Report'){
             steps{
                 script{
                     junit 'build/test-report/*.xml'
@@ -49,7 +49,6 @@ pipeline {
                 }
             }
         }
-
     }
 
     post{
