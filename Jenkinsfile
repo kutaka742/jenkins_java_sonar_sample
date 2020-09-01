@@ -39,12 +39,11 @@ pipeline {
             steps{
                 script{
                     junit 'build/test-report/*.xml'
-                    publishHTML([allowMissing: false, 
-                                 alwaysLinkToLastBuild: false, 
-                                 includes: 'build/test-report/html/**', 
-                                 keepAll: false, reportDir: 'build/test-report/html', 
+                    publishHTML([alwaysLinkToLastBuild: true,
+                                 keepAll: true,
+                                 reportDir: 'build/test-report/html', 
                                  reportFiles: 'index.html', 
-                                 reportName: 'JUnitReport', reportTitles: 'JUnitRepor'
+                                 reportName: 'JUnitReport'
                                ])
                 }
             }
