@@ -61,18 +61,19 @@
         <jar basedir="build/main" destfile="build/sample-ant.jar" />
     </target>
  
-    <property name="sonar.host.url" value="http://10.10.120.11/sonarqube" />
-    <property name="sonar.projectKey" value="org.sonarqube:sonarqube-scanner-ant" />
-    <property name="sonar.projectName" value="sample-ant" />
-    <property name="sonar.projectVersion" value="1.0" />
-    <property name="sonar.sources" value="src" />
-    <property name="sonar.java.binaries" value="build" />
-
     <target name="sonar">
         <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
-            <classpath path="${env.ANT_HOME}/lib/sonarqube-ant-task-*.jar" />
+            <classpath path="${env.ANT_HOME}/lib"/>
         </taskdef>
-        <sonar:sonar />
+        
+        <property name="sonar.host.url" value="http://10.10.120.11/sonarqube" />
+        <property name="sonar.projectKey" value="org.sonarqube:sonarqube-scanner-ant" />
+        <property name="sonar.projectName" value="sample-ant" />
+        <property name="sonar.projectVersion" value="1.0" />
+        <property name="sonar.sources" value="src" />
+        <property name="sonar.java.binaries" value="build" />
+
+        <sonar:sonar workDir="${base.dir}" key="org.apache.nutch:trunk" xmlns:sonar="antlib:org.sonar.ant"/
     </target>
 
 
