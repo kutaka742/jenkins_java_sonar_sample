@@ -39,13 +39,6 @@ pipeline {
             steps{
                 script{
                     junit 'build/test-report/*.xml'
-                    publishHTML([alwaysLinkToLastBuild: true,
-                                 keepAll: true,
-                                 reportDir: 'build/test-report/html', 
-                                 includes: 'build/test-report/html/**/*',
-                                 reportFiles: 'index.html', 
-                                 reportName: 'JUnitReport'
-                               ])
                 }
             }
         }
