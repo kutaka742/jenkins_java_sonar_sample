@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="junit5-jupiter-starter-ant" default="build" basedir="." xmlns:sonar="antlib:org.sonar.ant">
+<project name="sample-ant" default="build" basedir="." xmlns:sonar="antlib:org.sonar.ant">
 
     <property environment="env"/>
     

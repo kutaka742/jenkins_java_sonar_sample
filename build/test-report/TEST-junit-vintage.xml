@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Vintage" tests="0" skipped="0" failures="0" errors="0" time="0.003" hostname="NTTD-10VD21637" timestamp="2020-09-08T10:59:40">
+<properties>
+<property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+<property name="file.encoding" value="MS932"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+<property name="java.class.path" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build\test;C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build\main;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-antlr.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bcel.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bsf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-log4j.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-oro.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-regexp.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-resolver.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-xalan2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-logging.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-net.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-imageio.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jai.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-javamail.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jdepend.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jmf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jsch.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit4.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junitlauncher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-launcher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-netrexx.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-swing.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-testutil.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-xz.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit-platform-console-standalone-1.6.2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit.jar"/>
+<property name="java.class.version" value="55.0"/>
+<property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11"/>
+<property name="java.io.tmpdir" value="C:\Users\u013749\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Local\02_Soft\Ruby26-x64\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git;C:\Local\02_Soft\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\Program Files (x86)\Calibre2\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Local\02_Soft\gradle-6.3\bin;C:\Local\02_Soft\WebDriver;C:\Program Files\TortoiseGit\bin;C:\ProgramData\chocolatey\bin;C:\Local\02_Soft\nodejs\;C:\php;C:\composer;C:\Local\02_Soft\Graphviz2.38\bin;C:\Local\02_Soft\apache-ant-1.10.8\bin;C:\Users\u013749\AppData\Local\Microsoft\WindowsApps;C:\Local\02_Soft\Microsoft VS Code\bin;C:\Users\u013749\AppData\Roaming\npm;C:\Local\02_Soft\Jquery;C:\Users\u013749\AppData\Local\Box\Box Edit\;C:\Users\u013749\AppData\Roaming\Composer\vendor\bin;."/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="11+28"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="11"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+<property name="java.vendor.version" value="18.9"/>
+<property name="java.version" value="11"/>
+<property name="java.version.date" value="2018-09-25"/>
+<property name="java.vm.compressedOopsMode" value="32-bit"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="11+28"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 10"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.desktop" value="windows"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --scan-classpath --reports-dir build/test-report"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="MS932"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="JP"/>
+<property name="user.dir" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant"/>
+<property name="user.home" value="C:\Users\u013749"/>
+<property name="user.language" value="ja"/>
+<property name="user.name" value="U013749"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="Asia/Tokyo"/>
+<property name="user.variant" value=""/>
+</properties>
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]
+display-name: JUnit Vintage
+]]></system-out>
+</testsuite>

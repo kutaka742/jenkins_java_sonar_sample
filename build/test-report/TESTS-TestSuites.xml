@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite aborted="0" failures="0" id="0" name="CalculatorTests" package="com.example.project" skipped="0" tests="5" time="0.234" timestamp="2020-09-08T01:59:38">
+    <properties>
+      <property name="ant.library.dir" value="C:\Local\02_Soft\apache-ant-1.10.8\lib" />
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+      <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+      <property name="env.CLIENTNAME" value="WINDOWS-6B2S7R0" />
+      <property name="env.USERPROFILE" value="C:\Users\u013749" />
+      <property name="java.specification.version" value="11" />
+      <property name="ant.project.name" value="junit5-jupiter-starter-ant" />
+      <property name="sun.cpu.isalist" value="amd64" />
+      <property name="sun.jnu.encoding" value="MS932" />
+      <property name="ant.file.type.junit5-jupiter-starter-ant" value="file" />
+      <property name="sun.arch.data.model" value="64" />
+      <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+      <property name="java.vendor.url" value="http://java.oracle.com/" />
+      <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+      <property name="env.OS" value="Windows_NT" />
+      <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin" />
+      <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher" />
+      <property name="jdk.debug" value="release" />
+      <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+      <property name="sun.stderr.encoding" value="ms932" />
+      <property name="java.specification.vendor" value="Oracle Corporation" />
+      <property name="java.version.date" value="2018-09-25" />
+      <property name="env.JAVA_HOME" value="C:\Program Files\AdoptOpenJDK\jdk-11" />
+      <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11" />
+      <property name="env.OneDriveCommercial" value="C:\Local\99_OneDrive\NTT DATA" />
+      <property name="basedir" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant" />
+      <property name="env.ProgramFiles" value="C:\Program Files" />
+      <property name="file.separator" value="\" />
+      <property name="java.vm.compressedOopsMode" value="32-bit" />
+      <property name="sun.stdout.encoding" value="ms932" />
+      <property name="line.separator" value=" " />
+      <property name="env.PROMPT" value="$P$G" />
+      <property name="java.specification.name" value="Java Platform API Specification" />
+      <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+      <property name="env._JAVACMD" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin\java.exe" />
+      <property name="env.LOCALAPPDATA" value="C:\Users\u013749\AppData\Local" />
+      <property name="env.USERDOMAIN_ROAMINGPROFILE" value="BXO" />
+      <property name="env.PROCESSOR_REVISION" value="3f00" />
+      <property name="user.script" value="" />
+      <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+      <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+      <property name="env.http_proxy" value="http://127.0.0.1:8888" />
+      <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 63 Stepping 0, GenuineIntel" />
+      <property name="java.runtime.version" value="11+28" />
+      <property name="user.name" value="U013749" />
+      <property name="env.ProgramW6432" value="C:\Program Files" />
+      <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+      <property name="env.PUBLIC" value="C:\Users\Public" />
+      <property name="file.encoding" value="MS932" />
+      <property name="env.https_proxy" value="http://127.0.0.1:8888" />
+      <property name="java.vendor.version" value="18.9" />
+      <property name="env.COMPUTERNAME" value="NTTD-10VD21637" />
+      <property name="env.HOMEPATH" value="\Users\u013749" />
+      <property name="env.APPDATA" value="C:\Users\u013749\AppData\Roaming" />
+      <property name="env.SystemDrive" value="C:" />
+      <property name="env.ProgramData" value="C:\ProgramData" />
+      <property name="java.io.tmpdir" value="C:\Users\u013749\AppData\Local\Temp\" />
+      <property name="java.version" value="11" />
+      <property name="env.Path" value="C:\Local\02_Soft\Ruby26-x64\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git;C:\Local\02_Soft\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\Program Files (x86)\Calibre2\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Local\02_Soft\gradle-6.3\bin;C:\Local\02_Soft\WebDriver;C:\Program Files\TortoiseGit\bin;C:\ProgramData\chocolatey\bin;C:\Local\02_Soft\nodejs\;C:\php;C:\composer;C:\Local\02_Soft\Graphviz2.38\bin;C:\Local\02_Soft\apache-ant-1.10.8\bin;C:\Users\u013749\AppData\Local\Microsoft\WindowsApps;C:\Local\02_Soft\Microsoft VS Code\bin;C:\Users\u013749\AppData\Roaming\npm;C:\Local\02_Soft\Jquery;C:\Users\u013749\AppData\Local\Box\Box Edit\;C:\Users\u013749\AppData\Roaming\Composer\vendor\bin" />
+      <property name="env.PROCESSOR_LEVEL" value="6" />
+      <property name="env.HOMEDRIVE" value="C:" />
+      <property name="env.TMP" value="C:\Users\u013749\AppData\Local\Temp" />
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+      <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+      <property name="ant.home" value="C:\Local\02_Soft\apache-ant-1.10.8" />
+      <property name="sun.os.patch.level" value="" />
+      <property name="ant.version" value="Apache Ant(TM) version 1.10.8 compiled on May 10 2020" />
+      <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Local\02_Soft\Ruby26-x64\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git;C:\Local\02_Soft\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\Program Files (x86)\Calibre2\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Local\02_Soft\gradle-6.3\bin;C:\Local\02_Soft\WebDriver;C:\Program Files\TortoiseGit\bin;C:\ProgramData\chocolatey\bin;C:\Local\02_Soft\nodejs\;C:\php;C:\composer;C:\Local\02_Soft\Graphviz2.38\bin;C:\Local\02_Soft\apache-ant-1.10.8\bin;C:\Users\u013749\AppData\Local\Microsoft\WindowsApps;C:\Local\02_Soft\Microsoft VS Code\bin;C:\Users\u013749\AppData\Roaming\npm;C:\Local\02_Soft\Jquery;C:\Users\u013749\AppData\Local\Box\Box Edit\;C:\Users\u013749\AppData\Roaming\Composer\vendor\bin;." />
+      <property name="java.vendor" value="Oracle Corporation" />
+      <property name="env.LOGONSERVER" value="\\MP-NTTDS-DC01" />
+      <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+      <property name="env.ChocolateyInstall" value="C:\ProgramData\chocolatey" />
+      <property name="sun.desktop" value="windows" />
+      <property name="ant.file.type" value="file" />
+      <property name="env.USERDNSDOMAIN" value="BXO.LOCAL" />
+      <property name="java.class.path" value="C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-launcher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-antlr.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bcel.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bsf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-log4j.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-oro.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-regexp.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-resolver.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-xalan2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-logging.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-net.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-imageio.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jai.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-javamail.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jdepend.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jmf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jsch.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit4.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junitlauncher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-launcher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-netrexx.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-swing.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-testutil.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-xz.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit-platform-console-standalone-1.6.2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit.jar" />
+      <property name="env.ChocolateyLastPathUpdate" value="132319025738356120" />
+      <property name="java.vm.vendor" value="Oracle Corporation" />
+      <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+      <property name="env.GRADLE_HOME" value="C:\Local\02_Soft\gradle-6.3" />
+      <property name="user.variant" value="" />
+      <property name="user.timezone" value="" />
+      <property name="env.SystemRoot" value="C:\WINDOWS" />
+      <property name="os.name" value="Windows 10" />
+      <property name="java.vm.specification.version" value="11" />
+      <property name="user.country" value="JP" />
+      <property name="sun.java.launcher" value="SUN_STANDARD" />
+      <property name="env.USERDOMAIN" value="BXO" />
+      <property name="env.=::" value="::\" />
+      <property name="sun.cpu.endian" value="little" />
+      <property name="user.home" value="C:\Users\u013749" />
+      <property name="user.language" value="ja" />
+      <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+      <property name="ant.java.version" value="11" />
+      <property name="env.SESSIONNAME" value="RDP-Tcp#96" />
+      <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+      <property name="ant.file.junit5-jupiter-starter-ant" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build.xml" />
+      <property name="env.MAVEN_HOME" value="C:\Local\02_Soft\apache-maven-3.6.3" />
+      <property name="env.ANT_HOME" value="C:\Local\02_Soft\apache-ant-1.10.8" />
+      <property name="env.no_proxy" value="localhost" />
+      <property name="env.windir" value="C:\WINDOWS" />
+      <property name="ant.file" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build.xml" />
+      <property name="path.separator" value=";" />
+      <property name="env.=C:" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant" />
+      <property name="os.version" value="10.0" />
+      <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+      <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+      <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW" />
+      <property name="ant.project.invoked-targets" value="build" />
+      <property name="env._USE_CLASSPATH" value="no" />
+      <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+      <property name="ant.core.lib" value="C:\Local\02_Soft\apache-ant-1.10.8\lib\ant.jar" />
+      <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+      <property name="user.dir" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant" />
+      <property name="env.USERNAME" value="U013749" />
+      <property name="os.arch" value="amd64" />
+      <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+      <property name="java.vm.info" value="mixed mode" />
+      <property name="java.vm.version" value="11+28" />
+      <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+      <property name="env.TEMP" value="C:\Users\u013749\AppData\Local\Temp" />
+      <property name="java.class.version" value="55.0" />
+      <property name="env.OneDrive" value="C:\Local\99_OneDrive\NTT DATA" />
+      <property name="ant.project.default-target" value="build" />
+    </properties>
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[4]" time="0.015" />
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[1]" time="0.035" />
+    <testcase classname="com.example.project.CalculatorTests" name="addsTwoNumbers()" time="0.028" />
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[3]" time="0.001" />
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[2]" time="0.001" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="NTTD-10VD21637" id="1" name="JUnit Jupiter" package="" skipped="0" tests="5" time="0.178" timestamp="2020-09-08T10:59:40">
+    <properties>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+      <property name="file.encoding" value="MS932" />
+
+      <property name="file.separator" value="\" />
+
+      <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+      <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+      <property name="java.class.path" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build\test;C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build\main;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-antlr.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bcel.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bsf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-log4j.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-oro.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-regexp.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-resolver.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-xalan2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-logging.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-net.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-imageio.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jai.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-javamail.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jdepend.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jmf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jsch.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit4.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junitlauncher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-launcher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-netrexx.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-swing.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-testutil.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-xz.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit-platform-console-standalone-1.6.2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit.jar" />
+
+      <property name="java.class.version" value="55.0" />
+
+      <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11" />
+
+      <property name="java.io.tmpdir" value="C:\Users\u013749\AppData\Local\Temp\" />
+
+      <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Local\02_Soft\Ruby26-x64\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git;C:\Local\02_Soft\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\Program Files (x86)\Calibre2\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Local\02_Soft\gradle-6.3\bin;C:\Local\02_Soft\WebDriver;C:\Program Files\TortoiseGit\bin;C:\ProgramData\chocolatey\bin;C:\Local\02_Soft\nodejs\;C:\php;C:\composer;C:\Local\02_Soft\Graphviz2.38\bin;C:\Local\02_Soft\apache-ant-1.10.8\bin;C:\Users\u013749\AppData\Local\Microsoft\WindowsApps;C:\Local\02_Soft\Microsoft VS Code\bin;C:\Users\u013749\AppData\Roaming\npm;C:\Local\02_Soft\Jquery;C:\Users\u013749\AppData\Local\Box\Box Edit\;C:\Users\u013749\AppData\Roaming\Composer\vendor\bin;." />
+
+      <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+      <property name="java.runtime.version" value="11+28" />
+
+      <property name="java.specification.name" value="Java Platform API Specification" />
+
+      <property name="java.specification.vendor" value="Oracle Corporation" />
+
+      <property name="java.specification.version" value="11" />
+
+      <property name="java.vendor" value="Oracle Corporation" />
+
+      <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+      <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+
+      <property name="java.vendor.version" value="18.9" />
+
+      <property name="java.version" value="11" />
+
+      <property name="java.version.date" value="2018-09-25" />
+
+      <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+      <property name="java.vm.info" value="mixed mode" />
+
+      <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+      <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+      <property name="java.vm.specification.version" value="11" />
+
+      <property name="java.vm.vendor" value="Oracle Corporation" />
+
+      <property name="java.vm.version" value="11+28" />
+
+      <property name="jdk.debug" value="release" />
+
+      <property name="line.separator" value=" " />
+
+      <property name="os.arch" value="amd64" />
+
+      <property name="os.name" value="Windows 10" />
+
+      <property name="os.version" value="10.0" />
+
+      <property name="path.separator" value=";" />
+
+      <property name="sun.arch.data.model" value="64" />
+
+      <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin" />
+
+      <property name="sun.cpu.endian" value="little" />
+
+      <property name="sun.cpu.isalist" value="amd64" />
+
+      <property name="sun.desktop" value="windows" />
+
+      <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+      <property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --scan-classpath --reports-dir build/test-report" />
+
+      <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+      <property name="sun.jnu.encoding" value="MS932" />
+
+      <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+      <property name="sun.os.patch.level" value="" />
+
+      <property name="user.country" value="JP" />
+
+      <property name="user.dir" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant" />
+
+      <property name="user.home" value="C:\Users\u013749" />
+
+      <property name="user.language" value="ja" />
+
+      <property name="user.name" value="U013749" />
+
+      <property name="user.script" value="" />
+
+      <property name="user.timezone" value="Asia/Tokyo" />
+
+      <property name="user.variant" value="" />
+
+    </properties>
+
+    <testcase classname="com.example.project.CalculatorTests" name="addsTwoNumbers()" time="0.026">
+      <system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.CalculatorTests]/[method:addsTwoNumbers()]
+display-name: 1 + 1 = 2
+]]></system-out>
+
+    </testcase>
+
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[1]" time="0.028">
+      <system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.CalculatorTests]/[test-template:add(int, int, int)]/[test-template-invocation:#1]
+display-name: 0 + 1 = 1
+]]></system-out>
+
+    </testcase>
+
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[2]" time="0">
+      <system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.CalculatorTests]/[test-template:add(int, int, int)]/[test-template-invocation:#2]
+display-name: 1 + 2 = 3
+]]></system-out>
+
+    </testcase>
+
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[3]" time="0">
+      <system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.CalculatorTests]/[test-template:add(int, int, int)]/[test-template-invocation:#3]
+display-name: 49 + 51 = 100
+]]></system-out>
+
+    </testcase>
+
+    <testcase classname="com.example.project.CalculatorTests" name="add(int, int, int)[4]" time="0.001">
+      <system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.CalculatorTests]/[test-template:add(int, int, int)]/[test-template-invocation:#4]
+display-name: 1 + 100 = 101
+]]></system-out>
+
+    </testcase>
+
+    <system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="NTTD-10VD21637" id="2" name="JUnit Vintage" package="" skipped="0" tests="0" time="0.003" timestamp="2020-09-08T10:59:40">
+    <properties>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+      <property name="file.encoding" value="MS932" />
+
+      <property name="file.separator" value="\" />
+
+      <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+      <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+      <property name="java.class.path" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build\test;C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant\build\main;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-antlr.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bcel.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-bsf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-log4j.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-oro.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-regexp.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-resolver.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-apache-xalan2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-logging.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-commons-net.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-imageio.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jai.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-javamail.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jdepend.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jmf.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-jsch.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junit4.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-junitlauncher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-launcher.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-netrexx.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-swing.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-testutil.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant-xz.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\ant.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit-platform-console-standalone-1.6.2.jar;C:\Local\02_Soft\apache-ant-1.10.8\lib\junit.jar" />
+
+      <property name="java.class.version" value="55.0" />
+
+      <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11" />
+
+      <property name="java.io.tmpdir" value="C:\Users\u013749\AppData\Local\Temp\" />
+
+      <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Local\02_Soft\Ruby26-x64\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git;C:\Local\02_Soft\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\AdoptOpenJDK\jdk-11\bin;C:\Program Files (x86)\Calibre2\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Local\02_Soft\gradle-6.3\bin;C:\Local\02_Soft\WebDriver;C:\Program Files\TortoiseGit\bin;C:\ProgramData\chocolatey\bin;C:\Local\02_Soft\nodejs\;C:\php;C:\composer;C:\Local\02_Soft\Graphviz2.38\bin;C:\Local\02_Soft\apache-ant-1.10.8\bin;C:\Users\u013749\AppData\Local\Microsoft\WindowsApps;C:\Local\02_Soft\Microsoft VS Code\bin;C:\Users\u013749\AppData\Roaming\npm;C:\Local\02_Soft\Jquery;C:\Users\u013749\AppData\Local\Box\Box Edit\;C:\Users\u013749\AppData\Roaming\Composer\vendor\bin;." />
+
+      <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+      <property name="java.runtime.version" value="11+28" />
+
+      <property name="java.specification.name" value="Java Platform API Specification" />
+
+      <property name="java.specification.vendor" value="Oracle Corporation" />
+
+      <property name="java.specification.version" value="11" />
+
+      <property name="java.vendor" value="Oracle Corporation" />
+
+      <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+      <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+
+      <property name="java.vendor.version" value="18.9" />
+
+      <property name="java.version" value="11" />
+
+      <property name="java.version.date" value="2018-09-25" />
+
+      <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+      <property name="java.vm.info" value="mixed mode" />
+
+      <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+      <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+      <property name="java.vm.specification.version" value="11" />
+
+      <property name="java.vm.vendor" value="Oracle Corporation" />
+
+      <property name="java.vm.version" value="11+28" />
+
+      <property name="jdk.debug" value="release" />
+
+      <property name="line.separator" value=" " />
+
+      <property name="os.arch" value="amd64" />
+
+      <property name="os.name" value="Windows 10" />
+
+      <property name="os.version" value="10.0" />
+
+      <property name="path.separator" value=";" />
+
+      <property name="sun.arch.data.model" value="64" />
+
+      <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11\bin" />
+
+      <property name="sun.cpu.endian" value="little" />
+
+      <property name="sun.cpu.isalist" value="amd64" />
+
+      <property name="sun.desktop" value="windows" />
+
+      <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+      <property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --scan-classpath --reports-dir build/test-report" />
+
+      <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+      <property name="sun.jnu.encoding" value="MS932" />
+
+      <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+      <property name="sun.os.patch.level" value="" />
+
+      <property name="user.country" value="JP" />
+
+      <property name="user.dir" value="C:\Users\u013749\Desktop\Mynapo\GitHub\sample-ant" />
+
+      <property name="user.home" value="C:\Users\u013749" />
+
+      <property name="user.language" value="ja" />
+
+      <property name="user.name" value="U013749" />
+
+      <property name="user.script" value="" />
+
+      <property name="user.timezone" value="Asia/Tokyo" />
+
+      <property name="user.variant" value="" />
+
+    </properties>
+
+    <system-out><![CDATA[
+unique-id: [engine:junit-vintage]
+display-name: JUnit Vintage
+]]></system-out>
+
+  </testsuite>
+</testsuites>
